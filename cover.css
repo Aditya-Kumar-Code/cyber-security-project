@@ -51,3 +51,30 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+#headID{
+    position: fixed;
+    left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#home{
+  position: fixed;
+  right: 650px;font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-size: xx-large; */
+  font-weight: bolder;
+
+}
+
+#features{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-size: xx-large; */
+  font-weight: bolder;
+}
+#contact{
+  position: fixed;
+  right: 270px;
+}
+
